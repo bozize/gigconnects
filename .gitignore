@@ -1,0 +1,139 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.cover
+*.mo
+*.pot
+
+# SQLite database file
+db.sqlite3
+*.sqlite3
+
+# SQLite backup and temporary files
+*.sqlite3-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Django migrations
+**/migrations/
+
+# Media and static files
+media/
+static/
+staticfiles/
+
+# Local development environment files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+myenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs and editor configurations
+.vscode/
+.vscode/*
+.idea/
+.idea/*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.pydevproject
+*.code-workspace
+__pypackages__/
+
+# PyCharm
+.pytest_cache/
+.pydevproject
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux files
+*~
+
+# Logs and cache
+*.log
+*.out
+*.cache
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Sphinx documentation
+docs/_build/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Other unnecessary files
+*.bak
+*.old
+*.orig
+*.tmp
+*.swp
+*.swo
+*.log
+*.log-*
+
+
+node_modules/
+jspm_packages/
+bower_components/
