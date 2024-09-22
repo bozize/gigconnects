@@ -65,6 +65,7 @@ env/
 env.bak/
 venv.bak/
 myenv/
+myenv/Scripts/activate/
 
 # Jupyter Notebook
 .ipynb_checkpoints
