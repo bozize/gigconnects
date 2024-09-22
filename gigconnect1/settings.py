@@ -100,7 +100,7 @@ WSGI_APPLICATION = "gigconnect1.wsgi.application"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL', 'postgresql://gigdb_qisu_user:vABjEep1YIGRA9QoL0ZIxHze7p6L2wpp@dpg-crntoqd6l47c73aklhh0-a/gigdb_qisu'))
 }
 
 
