@@ -52,7 +52,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://gigconnects.onrender.com",
+    "gigconnect1-gaopj6ljl-bozizes-projects.vercel.app",
 ]
 
 
