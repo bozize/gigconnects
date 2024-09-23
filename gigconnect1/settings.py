@@ -52,7 +52,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "gigconnect1-ckln0ezge-bozizes-projects.vercel.app",
+    "https://gigconnect1-ckln0ezge-bozizes-projects.vercel.app",
 ]
 
 
@@ -67,7 +67,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
