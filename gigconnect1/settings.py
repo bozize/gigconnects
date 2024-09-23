@@ -143,11 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 
-if os.environ.get('ENV') == 'production':
-    STATIC_ROOT = BASE_DIR / 'staticfiles'
-    # Collect static files at runtime
-    import subprocess
-    subprocess.run(['python', 'manage.py', 'collectstatic', '--noinput'])
+
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
