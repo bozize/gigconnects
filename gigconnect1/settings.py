@@ -52,7 +52,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://gigconnect1-ckln0ezge-bozizes-projects.vercel.app",
+    "https://gigconnect1-1enuv0l3o-bozizes-projects.vercel.app/",
 ]
 
 
